@@ -1014,9 +1014,10 @@ span.dot::before {
 }
 
 .blog-card {
-    background-color: var(--grey-alt);
+    background-color: var(--grey);
     width: 95%;
     margin: 0 auto;
+    border-radius: 20px;
 }
 
 .blog-card:not(:last-child) {
@@ -1030,7 +1031,7 @@ span.dot::before {
 .card-footer h3 {
     font-size: 2rem;
     font-weight: 400;
-    color: var(--black);
+    color: var(--yellow);
     margin-bottom: 1rem;
 }
 
@@ -1064,8 +1065,8 @@ span.dot::before {
 
 .card-footer a button:hover {
     border: 1px solid var(--black);
-    color: var(--white);
-    background-color: var(--black);
+    color: var(--black);
+    background-color: var(--yellow);
 }
 
 @media only screen and (max-width: 567px) {
@@ -1412,7 +1413,7 @@ Facility Media Query
 }
 
 .footer-center a:hover {
-    color: var(--pink);
+    color: var(--yellow);
 }
 
 .footer-center div {
