@@ -1200,7 +1200,7 @@ Facility Media Query
     padding: 1.6rem;
     display: table;
     overflow: hidden;
-    background-color: var(--white);
+    background-color: var(--black);
 }
 
 .popup-close {
@@ -1211,9 +1211,13 @@ Facility Media Query
     top: 2rem;
     right: 2rem;
     padding: 1.5rem 1.7rem;
-    background-color: var(--grey-alt);
+    background-color: var(--black);
     border-radius: 50%;
     cursor: pointer;
+}
+
+.popup-close:hover {
+    padding: 2rem 2rem;
 }
 
 .popup-left {
@@ -1252,12 +1256,12 @@ Facility Media Query
 
 .right-content h1 {
     font-size: 4rem;
-    color: var(--black);
+    color: var(--grey);
     margin-bottom: 1.6rem;
 }
 
 .right-content h1 span {
-    color: var(--green);
+    color: var(--yellow);
 }
 
 .right-content p {
@@ -1293,7 +1297,7 @@ Facility Media Query
 }
 
 .right-content a:hover {
-    background-color: var(--green);
+    background-color: var(--yellow);
     border: 1px solid var(--grey2);
     color: var(--black);
 }
