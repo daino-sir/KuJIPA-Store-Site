@@ -1,0 +1,35 @@
+                    :root {
+                       --white: #fff;
+                       --black: #222;
+                       --pink: #f60091;
+                       --grey: #444;
+                       --grey2: #959595;
+                       --grey-alt: #d1e2e9;
+                       --yellow: #ffd800;
+                       --green: #59b210;
+                   }
+                   
+                   * {
+                       padding: 0;
+                       margin: 0;
+                       font-family: "open sans", sans-serif;
+                   }
+                   
+                   .about-section {
+                       background-color: black;
+                       border: solid 3px black;
+                       width: 100%;
+                       overflow: hidden;
+                       paddding: 100px;
+                   }
+                   
+                   .inner-container {
+                       width: 90%;
+                       background-color: black;
+                       padding: 100px;
+                   }
+                   
+                   .text {
+                       font-size: 35px;
+                       color: yellow;
+                   }
