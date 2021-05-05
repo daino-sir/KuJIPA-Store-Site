@@ -69,7 +69,7 @@ img {
     height: 100vh;
     width: 100vw;
     z-index: 999999;
-    background-color: var(--grey);
+    background-color: var(--black);
     transition: all 300ms ease-in-out;
 }
 
@@ -96,7 +96,7 @@ img {
 .adverts {
     line-height: 3rem;
     height: 3rem;
-    background-color: var(--pink);
+    background-color: var(--yellow);
     text-align: center;
     color: var(--white);
     font-weight: 500;
@@ -308,7 +308,7 @@ img {
     position: relative;
     height: 100vh;
     width: 100%;
-    background-color: var(--grey-alt);
+    background-image: url(./images/banner_bg.jpg);
 }
 
 .banner img {
@@ -615,7 +615,7 @@ img {
     justify-content: center;
     padding: 2rem 0;
     margin-bottom: 2rem;
-    background-color: var(--grey-alt);
+    background-color: var(--grey);
 }
 
 .section-titles:not(:last-child) {
