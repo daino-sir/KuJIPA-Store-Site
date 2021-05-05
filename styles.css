@@ -28,8 +28,8 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
-    color: var(--grey2);
-    background-color: var(--grey);
+    color: var(--yellow);
+    background-color: var(--black);
     z-index: -1;
 }
 
@@ -117,11 +117,11 @@ img {
 }
 
 .logo {
-    color: var(--black);
+    color: var(--white);
 }
 
 .logo span {
-    color: var(--pink);
+    color: var(--yellow);
 }
 
 .nav-list {
@@ -135,7 +135,7 @@ img {
     left: 0;
     width: 100%;
     z-index: 1200;
-    background-color: var(--white);
+    background-color: var(--black);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -152,7 +152,7 @@ img {
     display: inline-block;
     padding: 0.5rem 0 0.2rem;
     font-size: 1.5rem;
-    color: var(--black);
+    color: var(--white);
     text-transform: uppercase;
     transition: all 500ms ease-in-out;
 }
@@ -164,7 +164,7 @@ img {
     height: 2px;
     top: 100%;
     left: 0;
-    background: var(--pink);
+    background: var(--yellow);
     transition: transform 0.5s;
     transform: scaleX(0);
     transform-origin: right;
@@ -189,7 +189,7 @@ img {
 }
 
 .nav-icons span:hover {
-    background-color: var(--pink);
+    background-color: var(--yellow);
 }
 
 .nav-icons .fas {
