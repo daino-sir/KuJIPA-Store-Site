@@ -18,6 +18,26 @@
     color: var(--grey-alt);
 }
 
+h1 {
+    color: var(--yellow);
+    font-size: 70px;
+    top: 5%;
+    padding: 25px 15px;
+}
+
+p {
+    color: var(--grey-alt);
+    font-size: 30px;
+    top: 20%;
+    background-color: rgba(68, 68, 68, 0);
+    flex-wrap: wrap;
+}
+
+.content p {
+    top: 90%;
+    font-size: 20px;
+}
+
 .about-section {
     background-color: var(--grey);
     border: solid 3px black;
@@ -26,7 +46,8 @@
 }
 
 .inner-container {
-    width: 900px;
-    background-color: black;
+    width: 30%;
+    height: fit-content;
+    background-color: var(--yellow);
     padding: 100px;
 }

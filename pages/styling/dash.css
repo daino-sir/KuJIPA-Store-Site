@@ -24,7 +24,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #3ea175;
+    background: var(--yellow);
     border-radius: 10px;
 }
 
@@ -53,23 +53,23 @@ body {
 }
 
 .text-title {
-    color: #2e4a66;
+    color: var(--grey);
 }
 
 .text-lightblue {
-    color: #469cac;
+    color: var(--grey-alt);
 }
 
 .text-red {
-    color: #cc3d38;
+    color: var(--pink);
 }
 
 .text-yellow {
-    color: #a98921;
+    color: var(--yellow);
 }
 
 .text-green {
-    color: #3b9668;
+    color: var(--green);
 }
 
 .container {
@@ -82,7 +82,7 @@ body {
 }
 
 .navbar {
-    background: #ffffff;
+    background: var(--black);
     grid-area: nav;
     height: 60px;
     display: flex;
@@ -98,7 +98,7 @@ body {
 
 .nav_icon>i {
     font-size: 26px;
-    color: #a5aaad;
+    color: var(--grey);
 }
 
 .navbar__left>a {
@@ -130,13 +130,13 @@ body {
     color: #a5aaad;
     font-size: 16px;
     border-radius: 50px;
-    background: #ffffff;
-    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
+    background: var(--black);
+    box-shadow: 2px 2px 5px var(--grey2), -2px -2px 5px var(--grey);
     padding: 7px;
 }
 
 main {
-    background: #f3f4f6;
+    background: var(--black);
     grid-area: main;
     overflow-y: auto;
 }
@@ -182,8 +182,8 @@ main {
     height: 70px;
     padding: 25px;
     border-radius: 5px;
-    background: #ffffff;
-    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+    background: var(--black);
+    box-shadow: 5px 5px 13px black, -5px -5px 13px black;
 }
 
 .card_inner {
@@ -206,8 +206,8 @@ main {
 .charts__left {
     padding: 25px;
     border-radius: 5px;
-    background: #ffffff;
-    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+    background: var(--grey);
+    box-shadow: 5px 5px 13px black, -5px -5px 13px black;
 }
 
 .charts__left__title {
@@ -242,8 +242,8 @@ main {
 .charts__right {
     padding: 25px;
     border-radius: 5px;
-    background: #ffffff;
-    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+    background: var(--black);
+    box-shadow: 5px 5px 13px black, -5px -5px 13px black;
 }
 
 .charts__right__title {
@@ -283,7 +283,7 @@ main {
 }
 
 .card1 {
-    background: #d1ecf1;
+    background: var(--black);
     color: #35a4ba;
     text-align: center;
     padding: 25px;
@@ -292,7 +292,7 @@ main {
 }
 
 .card2 {
-    background: #d2f9ee;
+    background: var(--black);
     color: #38e1b0;
     text-align: center;
     padding: 25px;
@@ -301,7 +301,7 @@ main {
 }
 
 .card3 {
-    background: #d6d8d9;
+    background: var(--black);
     color: #3a3e41;
     text-align: center;
     padding: 25px;
@@ -310,7 +310,7 @@ main {
 }
 
 .card4 {
-    background: #fddcdf;
+    background: var(--black);
     color: #f65a6f;
     text-align: center;
     padding: 25px;
@@ -322,7 +322,7 @@ main {
 /*  SIDEBAR STARTS HERE  */
 
 #sidebar {
-    background: #020509;
+    background: var(--black);
     grid-area: sidebar;
     overflow-y: auto;
     padding: 20px;
@@ -334,7 +334,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #f3f4f6;
+    color: var(--yellow);
     margin-bottom: 30px;
     /* color: #E85B6B; */
 }
@@ -360,7 +360,7 @@ main {
 }
 
 .sidebar__menu>h2 {
-    color: #3ea175;
+    color: var(--yellow);
     font-size: 16px;
     margin-top: 15px;
     margin-bottom: 5px;
@@ -369,19 +369,19 @@ main {
 }
 
 .sidebar__link {
-    color: #f3f4f6;
+    color: var(--white);
     padding: 10px;
     border-radius: 3px;
     margin-bottom: 5px;
 }
 
 .active_menu_link {
-    background: rgba(62, 161, 117, 0.3);
-    color: #3ea175;
+    background: rgba(255, 255, 0, 0.35);
+    color: var(--grey-alt);
 }
 
 .active_menu_link a {
-    color: #3ea175 !important;
+    color: var(--grey2) !important;
 }
 
 .sidebar__link>a {
