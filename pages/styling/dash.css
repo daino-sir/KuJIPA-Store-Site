@@ -89,7 +89,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 30px 0 30px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid var(--yellow);
 }
 
 .nav_icon {
