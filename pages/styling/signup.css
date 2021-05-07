@@ -29,7 +29,7 @@ body {
 .container {
     padding: 16px;
     background-color: var(--black);
-    width: 600px;
+    width: 500px;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
     box-shadow: 4px 7px 7px black;
