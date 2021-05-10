@@ -42,7 +42,7 @@
                     <img src="assets/hello.svg" alt="" />
                     <div class="main__greeting">
                         <h1>Hi There,</h1>
-                        <p>Welcome to your Customer's dashboard</p>
+                        <p>Welcome to your User Management Dashboard</p>
                     </div>
                 </div>
 
@@ -51,15 +51,15 @@
                 <!-- MAIN CARDS STARTS HERE -->
                 <div class="main__cards">
                     <div class="card">
-                        <i class="fa fa-user-o fa-2x text-lightblue" aria-hidden="true"></i>
+                        <i class="fa fa-user-o fa-2x text-yellow" aria-hidden="true"></i>
                         <div class="card_inner">
-                            <p class="text-primary-p">Member Since</p>
-                            <span class="font-bold text-title">02.01.2019</span>
+                            <p class="text-primary-p">Member Rating</p>
+                            <span class="font-bold text-title">5.6</span>
                         </div>
                     </div>
 
                     <div class="card">
-                        <i class="fa fa-calendar fa-2x text-red" aria-hidden="true"></i>
+                        <i class="fa fa-calendar fa-2x text-yellow" aria-hidden="true"></i>
                         <div class="card_inner">
                             <p class="text-primary-p">Times ordered</p>
                             <span class="font-bold text-title">478</span>
@@ -75,9 +75,9 @@
                     </div>-->
 
                     <div class="card">
-                        <i class="fa fa-thumbs-up fa-2x text-green" aria-hidden="true"></i>
+                        <i class="fa fa-thumbs-up fa-2x text-yellow" aria-hidden="true"></i>
                         <div class="card_inner">
-                            <p class="text-primary-p">Number of Likes</p>
+                            <p class="text-primary-p">Liked Distributors</p>
                             <span class="font-bold text-title">645</span>
                         </div>
                     </div>
@@ -89,8 +89,8 @@
                     <div class="charts__left">
                         <div class="charts__left__title">
                             <div>
-                                <h1>Your Stats</h1>
-                                <p>Cupertino, California, USA</p>
+                                <h1>Company Stats</h1>
+                                <p>Our Partner's Input</p>
                             </div>
                             <i class="fa fa-usd" aria-hidden="true"></i>
                         </div>
@@ -134,10 +134,15 @@
         </main>
 
         <div id="sidebar">
+            <div class="toggle_button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
             <div class="sidebar__title">
                 <div class="sidebar__img">
-                    <img src="assets/logo.png" alt="logo" />
-                    <h1>KuJIPA</h1>
+                    <h1>Ku<span>]</span>IPA UMD</h1>
                 </div>
                 <i onclick="closeSidebar()" class="fa fa-times" id="sidebarIcon" aria-hidden="true"></i>
             </div>
@@ -194,10 +199,13 @@
                     <i class="fa fa-briefcase"></i>
                     <a href="#">Paygrade</a>
                 </div>
-                <div class="sidebar__logout">
+                <button class="sidebar__logout"> 
                     <i class="fa fa-power-off"></i>
+                    <a href="https://daino-sir.github.io/KuJIPA-Store-Site/">Log out</a>
+                </button>
+                <!--<div class="sidebar__logout">
                     <a href="#">Log out</a>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
