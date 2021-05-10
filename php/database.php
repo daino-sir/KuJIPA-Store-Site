@@ -1,8 +1,6 @@
 
 <?php
 
-
-
 $email = filter_input (INPUT_POST, 'email');
 $password = filter_input_input (INPUT_POST, 'password');
 
@@ -25,7 +23,6 @@ else
     if ($conn->query ($sql))
     {
         echo "New Record Inserted Succesfully";
-    
     }
     else
     {
