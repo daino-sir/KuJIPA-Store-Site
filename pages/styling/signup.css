@@ -66,7 +66,8 @@ h1 {
 }
 
 input[type=text],
-input[type=password] {
+input[type=password],
+#email {
     color: var(--yellow);
     width: 80%;
     padding: 15px;
@@ -78,7 +79,8 @@ input[type=password] {
 }
 
 input[type=text]:focus,
-input[type=password]:focus {
+input[type=password]:focus,
+#email {
     background-color: var(--grey);
     color: var(--yellow);
     outline: none;
