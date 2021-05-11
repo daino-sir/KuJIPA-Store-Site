@@ -1,7 +1,6 @@
 
 
   // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
     apiKey: "AIzaSyCkN4AjXxfFlEDPNMjZiqf0QgcjXrLY150",
     authDomain: "kujipa-store-site.firebaseapp.com",
@@ -13,16 +12,25 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
   
   const auth = firebase.auth()
 
   function signUp(){
-      var email= document.getElementById("email");
-      var password= document.getElementById("password");
+      var email = document.getElementById("email");
+      var password = document.getElementById("password");
 
       const promise = auth.createUserWithEmailAndPassword(email.value. password.value);
       promise.catch(e => alert(e.message));
 
-      alert("Signed In");
+      alert("You're now Signed In");
   }
+
+  function signIn(){
+    var email = document.getElementById("email");
+    var password = document.getElementById("password");
+
+    const promise = auth.SignInWithEmailAndPassword(email.value. password.value);
+    promise.catch(e => alert(e.message));
+
+    alert("You're now Signed In");
+}
