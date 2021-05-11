@@ -8,6 +8,7 @@
     <title>Sign Up</title>
     <link rel="stylesheet" href="../styling/signup.css">
 
+
 </head>
 
 <body>
@@ -25,21 +26,23 @@
             <input type="text" placeholder="Enter Email" name="email" id="email" required>
 
             <label for="psw" class="label"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+            <input type="password" placeholder="Enter Password" name="psw" id="password" required>
 
-            <label for="psw-repeat" class="label1"><b>Repeat Password</b></label>
+            <!--<label for="psw-repeat" class="label1"><b>Repeat Password</b></label>
             <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+        -->
             <hr>
             <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
-            <button type="submit" class="registerbtn">Sign Up</button>
+            <button onclick="SignUp" type="submit" class="registerbtn" id="signUp">Sign Up</button>
         </div>
 
         <div class="container signin">
             <p>Already have an account? <a href="../index/login.html">Sign In instead</a>.</p>
         </div>
     </form>
-
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js"></script>
+    <script src="./JS/reg.js"></script>
 </body>
 
 </html>
