@@ -15,7 +15,7 @@
     font-family: "open sans", sans-serif;
     position: fixed;
     background-color: var(--black);
-    color: var(--grey-alt);
+    color: var(--white);
 }
 
 h1 {
@@ -30,7 +30,6 @@ p {
     font-size: 30px;
     top: 20%;
     background-color: rgba(68, 68, 68, 0);
-    flex-wrap: wrap;
 }
 
 .content p {
@@ -50,4 +49,60 @@ p {
     height: fit-content;
     background-color: var(--yellow);
     padding: 100px;
+}
+
+
+/*=====footer=====*/
+
+.footer {
+    background-color: var(--black);
+    padding: 6rem 1rem;
+    line-height: 3rem;
+}
+
+.footer-center span {
+    margin-right: 1rem;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: var(--white);
+}
+
+.footer-center a:link,
+.footer-center a:visited {
+    display: block;
+    color: var(--grey2);
+    font-size: 1.4rem;
+    transition: 0.6s;
+}
+
+.footer-center a:hover {
+    color: var(--yellow);
+}
+
+.footer-center div {
+    color: var(--grey2);
+    font-size: 1.4rem;
+}
+
+.footer-center h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 998px) {
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
 }

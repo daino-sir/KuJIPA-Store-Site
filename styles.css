@@ -753,7 +753,7 @@ span.dot::before {
 .product-footer h3 {
     font-weight: 500;
     font-size: 1.6rem;
-    color: var(--grey);
+    color: var(--yellow);
 }
 
 .rating {
@@ -763,6 +763,7 @@ span.dot::before {
 
 .product-price h4 {
     font-weight: 500;
+    color: var(--white);
 }
 
 .product ul {

@@ -104,18 +104,32 @@ body {
     color: var(--yellow);
 }
 
-.navbar__left>a:hover {
-    color: var(--yellow);
-    border-bottom: 3px solid var(--yellow);
-    padding-bottom: 12px;
-}
-
 .navbar__left>a {
     margin-right: 30px;
     text-decoration: none;
     color: var(--white);
     font-size: 15px;
     font-weight: 700;
+}
+
+.navbar__left>a::before {
+    margin-right: 30px;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.navbar__left>a::after {
+    color: var(--yellow);
+    border-bottom: 3px solid var(--yellow);
+    padding-bottom: 12px;
+}
+
+.navbar__left>a:hover {
+    color: var(--yellow);
+    border-bottom: 3px solid var(--yellow);
+    padding-bottom: 12px;
 }
 
 .navbar__left .active_link {
