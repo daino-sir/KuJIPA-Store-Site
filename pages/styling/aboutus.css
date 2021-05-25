@@ -28,23 +28,25 @@ h1 {
 p {
     color: var(--grey-alt);
     font-size: 30px;
-    top: 20%;
+    top: 50%;
     background-color: rgba(68, 68, 68, 0);
     flex-wrap: wrap;
 }
 
 .content p {
-    top: 90%;
+    top: 80%;
     font-size: 20px;
 }
 
 .about-section {
-    background-color: var(--grey);
+    background-color: var();
     border: solid 3px black;
     width: 100%;
     padding: 100px;
 }
 
+
+/*
 .inner-container {
     width: 30%;
     height: fit-content;
